@@ -1,0 +1,12 @@
+.result {
+  text-align: center;
+}
+.rating-result {
+  width: 193px;
+  background-color: rgba(38, 46, 56, 1);
+  border-radius: 22px;
+  color: rgba(252, 118, 20, 1);
+  padding: 6px 0;
+  font-size: 15px;
+  margin: 36px auto;
+}

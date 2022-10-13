@@ -1,0 +1,63 @@
+.rating-component {
+  width: 348px;
+  max-width: 75vw;
+  background: linear-gradient(rgba(35, 42, 52, 1), rgba(24, 30, 39, 1));
+  border-radius: 30px;
+  padding: 32px;
+}
+.star-icon {
+  background-color: rgba(38, 46, 56, 1);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.rating-component h1 {
+  font-weight: 700;
+  font-size: 28px;
+  margin: 30px 0 7px 0;
+  color: white;
+}
+.rating-component p {
+  font-size: 15px;
+  color: rgba(150, 159, 173, 1);
+}
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 0 32px 0;
+}
+.options button {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: rgba(38, 46, 56, 1);
+  border: none;
+  color: rgba(124, 135, 152, 1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.options button:hover {
+  background-color: rgba(252, 118, 20, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.options .active-button {
+  background-color: rgba(124, 135, 152, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.submit-button {
+  width: 100%;
+  padding: 11px 0;
+  background-color: rgba(252, 118, 20, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+}
+.submit-button:hover {
+  color: rgba(252, 118, 20, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
